@@ -10,9 +10,5 @@
 </ul>
 
 ### 🎥 Video da Aplicação
-<video controls>
-	<source src="./assets/rocket.mp4" type="video/mp4">
-	<p>Este Browser não suporta video, baixe-o aqui 
-	<a href="./assets/rocket.mp4">Video</a>
-	</p>
-</video>
+<img src="./assets/formulario.gif"/>
+
