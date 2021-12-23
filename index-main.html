@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Usuário</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Formulário de Cadastro</h1>
+      <ul>
+        <li>Nenhum Campo pode estar vazio</li>
+        <li>Usuário só poderá conter letrar e/ou númeors</li>
+        <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+        <li>Senha precisa ter entre e 12 caracteres</li>
+      </ul>
+
+      <form action="/" id="form-registration">
+        <label for="name-user">Nome:</label>
+        <input type="text" id="name-user" class="input-user" required>
+        <p id="error-name" class="p-error"></p>
+
+        <label for="surname-user">Sobrenome:</label>
+        <input type="text" id="surname-user" class="input-user" required>
+        <p id="error-surname" class="p-error"></p>
+
+        <label for="cpf-user">CPF:</label>
+        <input type="text" id="cpf-user" class="input-user" required>
+        <p id="error-cpf" class="p-error"></p>
+
+        <label for="user">Usuário:</label>
+        <input type="text" id="user" class="input-user" required>
+        <p id="error-user" class="p-error"></p>
+
+        <label for="password-user">Senha:</label>
+        <input type="password" id="password-user" class="input-user" required>
+        <p id="error-password" class="p-error"></p>
+
+        <label for="repeat-password-user">Repetir Senha:</label>
+        <input type="password" id="repeat-password-user" class="input-user" required>
+        <p id="error-repeat-password" class="p-error"></p>
+
+        <button id="btn-submit">Enviar</button>
+      </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
